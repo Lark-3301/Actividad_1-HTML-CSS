@@ -1,0 +1,29 @@
+.barra-navegacion ul {
+    list-style: none; /* Quita los puntos de cada apartado*/
+    margin: 10px;
+    padding: 10px;
+    border: 10px;
+
+    display: flex;
+    gap: 20px;
+
+    background-color: #ffab94;
+}
+
+.equipo {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: 200px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
