@@ -1,14 +1,96 @@
+/* * es el selector universal */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Color del fondo del body y el color del texto.*/
+body {
+    background-color: #FFEBE6;
+    color: #D12D00;
+
+}
+
+/* Todos los h1 y h2 al centro*/
+h1,
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*
+-----------------------------------------------
+----------------HEADER--------------------------
+-----------------------------------------------*/
+
+/**
+Para los colores basandome en el color que usaste para el nav, en esta web: https://htmlcolorcodes.com/es
+en variaciones de color ... cogi varios colores para el fondo, texto ... en la carpeta public he puesto una captura 
+de los colores
+
+
+#FFEBE6; - para el fondo del body
+#FFC7B8;
+#FFAB94; - fonde de color para nav y card
+#FF7F5C;
+#FF5B2E;
+#FF3700;
+#D12D00; - para el color del texto y border card y el boton formulario.
+#A32300;
+#751900;
+#470F00; - para el fondo al hacer hover en el boton.
+#1A0600;
+*/
+
+
 .barra-navegacion ul {
-    list-style: none; /* Quita los puntos de cada apartado*/
+    list-style: none;
+    /* Quita los puntos de cada apartado*/
+
     margin: 10px;
     padding: 10px;
     border: 10px;
 
     display: flex;
     gap: 20px;
+    justify-content: center;
 
     background-color: #ffab94;
 }
+
+.barra-navegacion ul li a {
+    /* Quita el subrayado del texto.*/
+    text-decoration: none;
+
+
+}
+
+/*
+-----------------------------------------------
+----------------HEADER--------------------------
+-----------------------------------------------*/
+
+/*
+-----------------------------------------------
+----------------MAIN----------------------------
+-----------------------------------------------*/
+
+/*----------- index -----------*/
+.homeImagen{
+    display: flex;
+    justify-content: center;
+}
+.homeImagen img {
+    width: 50%;
+  
+}
+
+/*----------- fin index -----------*/
+
+
+/*----------- equipo -----------*/
 
 .equipo {
     display: flex;
@@ -17,13 +99,109 @@
 }
 
 .card {
-    border: 1px solid #ccc;
+    border: 2px solid #D12D00;
     padding: 1rem;
     width: 200px;
     text-align: center;
+    background-color: #FFAB94;
 }
 
 .card img {
     width: 100%;
     height: auto;
+}
+
+/* ------fin equipo --------*/
+/*------- contacto-----------*/
+.formularioContato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+
+}
+
+form h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+input,
+select {
+    width: 95%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #D12D00;
+    border-radius: 5px;
+}
+
+.radio-group,
+.respuesta-group {
+    margin-top: 5px;
+}
+
+.radio-group label,
+.respuesta-group label {
+    font-weight: normal;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.formularioBoton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 40%;
+    background-color: #D12D00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #470F00;
+}
+
+/*-------fin contacto --------*/
+/*
+-----------------------------------------------
+----------------MAIN----------------------------
+-----------------------------------------------*/
+
+/*--------------------------------------
+---------------- Footer -----------------
+---------------------------------------*/
+
+footer {
+    /* mismo estilo que la nav */
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin: 50px;
+}
+
+footer p a {
+    text-decoration: none;
+    margin-right: 5px;
+    margin-left: 5px;
+
 }

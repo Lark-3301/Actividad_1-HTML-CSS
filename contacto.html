@@ -12,18 +12,84 @@
     <header>
         <nav class="barra-navegacion">
             <ul>
-                 <li><a href="index.html">Ir a Home</a></li>
-                <li><a href="contacto.html">Ir a Contacto</a></li>
-                <li><a href="equipo.html">Ir a Equipo</a></li>
-                <li><a href="servicios.html">Ir a Servicios</a></li>
-                <li><a href="sobre.html">Ir a Sobre Nosotros</a></li>
+                 <li><a href="index.html"> Home</a></li>
+                <li><a href="contacto.html"> Contacto</a></li>
+                <li><a href="equipo.html"> Equipo</a></li>
+                <li><a href="servicios.html"> Servicios</a></li>
+                <li><a href="sobre.html"> Sobre Nosotros</a></li>
             </ul>
         </nav>
     </header>
     <main>
         <h1>Contacta con tu Zapatero!</h1>
+      
+        <div class="formularioContato">
+              <form>
+                <h2>Datos de contacto</h2>
+            
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            
+                <label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+            
+                <label>Sexo:</label>
+                <div class="radio-group">
+                  <input type="radio" id="mujer" name="sexo" value="Mujer">
+                  <label for="mujer">Mujer</label>
+            
+                  <input type="radio" id="hombre" name="sexo" value="Hombre">
+                  <label for="hombre">Hombre</label>
+                </div>
+            
+                <label>Respuesta preferida:</label>
+                <div class="respuesta-group">
+                  <input type="radio" id="respuestaTel" name="respuesta" value="Telefono">
+                  <label for="respuestaTel">Teléfono</label>
+            
+                  <input type="radio" id="respuestaEmail" name="respuesta" value="Email">
+                  <label for="respuestaEmail">Email</label>
+            
+                  <input type="radio" id="respuestaTienda" name="respuesta" value="Tienda">
+                  <label for="respuestaTienda">Presencial en tienda</label>
+                </div>
+            
+                <label for="provincia">Provincia:</label>
+                <select id="provincia" name="provincia" required>
+                  <option value="">-- Selecciona provincia --</option>
+                  <option value="almeria">Almería</option>
+                  <option value="cadiz">Cádiz</option>
+                  <option value="cordoba">Córdoba</option>
+                  <option value="granada">Granada</option>
+                  <option value="huelva">Huelva</option>
+                  <option value="jaen">Jaén</option>
+                  <option value="malaga">Málaga</option>
+                  <option value="sevilla">Sevilla</option>
+                </select>
+            
+              <div class="formularioBoton">
+                <button type="submit">Enviar</button>
+              </div>
+              </form>
+        </div>
+          
+            
+        
     </main>
-    <footer></footer>
+    <footer>
+        <p>&copy; 2025 Zapatería Bootcamp!. Todos los derechos reservados.</p>
+        <p>
+          <a href="#">Aviso Legal</a> |
+          <a href="#">Política de Privacidad</a> |
+          <a href="contacto.html">Contacto</a>
+        </p>
+      </footer>
 </body>
 
 </html>
