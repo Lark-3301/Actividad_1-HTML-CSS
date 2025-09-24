@@ -44,6 +44,11 @@ de los colores
 #1A0600;
 */
 
+/* header {
+    position: fixed;
+    top: 0;
+   
+} */
 
 .barra-navegacion ul {
     list-style: none;
@@ -58,6 +63,9 @@ de los colores
     justify-content: center;
 
     background-color: #ffab94;
+
+    margin-bottom: 20px;  
+
 }
 
 .barra-navegacion ul li a {
@@ -112,6 +120,8 @@ de los colores
 }
 
 /* ------fin equipo --------*/
+
+
 /*------- contacto-----------*/
 .formularioContato {
     display: flex;
@@ -158,6 +168,13 @@ select {
     font-weight: normal;
     margin-right: 15px;
     margin-left: 15px;
+}
+
+.radio-group input[type="radio"],
+.respuesta-group input[type="radio"] {
+   
+   
+    
 }
 
 .formularioBoton {
