@@ -86,12 +86,26 @@ de los colores
 -----------------------------------------------*/
 
 /*----------- index -----------*/
+main {
+    width: 80%;
+    margin: auto;
+}
+.homeGridPadre{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+}
+
+.homeGridPadre div {
+    background-color: aqua;
+}
+    
 .homeImagen{
     display: flex;
     justify-content: center;
 }
 .homeImagen img {
-    width: 50%;
+    width: 80%;
   
 }
 
