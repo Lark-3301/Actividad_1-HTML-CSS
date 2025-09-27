@@ -143,13 +143,23 @@ main {
     align-items: center;
 }
 
-form {
+form.formularioOpinion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+    justify-content: center;
+    margin: auto;
+}
 
+form {
     background: white;
     padding: 20px;
     border-radius: 10px;
     width: 350px;
-
 }
 
 form h2 {
