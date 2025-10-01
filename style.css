@@ -6,11 +6,13 @@
 }
 
 /* Color del fondo del body y el color del texto.*/
-body {
+body, .bodyIndex {
     background-color: #FFEBE6;
     color: #D12D00;
 
 }
+
+
 
 /* Todos los h1 y h2 al centro*/
 h1,
@@ -94,12 +96,20 @@ main {
     margin: auto;
     display: grid;
     grid-template-columns: 25% 50% 25%;
+    gap: 10px;
 }
 
-.homeGridPadre div {
-    background-color: aqua;
+/* Colores div */
+.div1 {
+    background-color: #FFAB94;
 }
     
+.div2 {
+    background-color: aquamarine;
+}
+.div3 {
+    background-color: aqua;
+}
 .homeImagen{
     display: flex;
     justify-content: center;

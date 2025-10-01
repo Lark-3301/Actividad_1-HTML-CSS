@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zapateria Bootcamp!</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css">
 
-   
+
 
 </head>
 
-<body >
+<body class="bodyIndex">
 
     <header>
         <nav class="barra-navegacion">
@@ -32,18 +33,37 @@
         <h1>Zapatería Bootcamp!</h1>
         <br>
         <h2>Somos una zapateria super chula capaz de satisfacer los deseos más estilosos de nuestros clientes</h2>
-      
-        <div class="homeGridPadre">
-                <div>hola</div>
-                <div>
-                     <div class="homeImagen">
-            <img src="public/index.jpg" alt="Imagen con diferentes tipo de calzado.">
-        </div>
+
+
+        <!-- El div padre:
+        Si no se usa bootstrap
+        <div class="homeGridPadre"> 
+            
+            con bootstrap
+            -->
+        <div class="container text-cente">
+            <div class="row">
+                <div class="col col-lg-3 div1">hola</div>
+                <div class="col col-lg-6 div2">
+                    <div class="homeImagen">
+                        <img src="public/index.jpg" alt="Imagen con diferentes tipo de calzado.">
+                    </div>
                 </div>
-                <div>mañana</div>
+                <div class="col col-lg-3 div3">mañana</div>
+            </div>
+
+            <div class="row">
+                <div class="col col-lg-3 div1">hola</div>
+                <div class="col col-lg-6 div2">
+                    <div class="homeImagen">
+                        <img src="public/index.jpg" alt="Imagen con diferentes tipo de calzado.">
+                    </div>
+                </div>
+                <div class="col col-lg-3 div3">mañana</div>
+            </div>
+
         </div>
-      
-       
+
     </main>
 
     <footer>
@@ -57,5 +77,6 @@
 
 
 </body>
+<script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
 
 </html>

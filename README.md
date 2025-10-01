@@ -23,3 +23,6 @@ En esta fase se crean todas las páginas y se hace los estilos básicos con CSS 
 # Fase Segunda
 
 ## **Páginas - Autor**
+
+- index - Natalia
+    - Se implanta bootstrap de manera local y se hacer un grid responsive en la parte central.
