@@ -12,6 +12,12 @@ body, .bodyIndex {
 
 }
 
+/*Cambiar de claro oscuro el index. invertir los colores.*/
+.bodyIndex-oscuro {
+    background-color: #D12D00;
+    color:  #FFEBE6 ;
+
+}
 
 
 /* Todos los h1 y h2 al centro*/
@@ -70,7 +76,7 @@ de los colores
 
 }
 
-.barra-navegacion ul li a {
+.barra-navegacion ul a {
     /* Quita el subrayado del texto.*/
     text-decoration: none;
 
@@ -113,11 +119,16 @@ main {
 .homeImagen{
     display: flex;
     justify-content: center;
+    margin: 0.5em;
+   
 }
 .homeImagen img {
     width: 80%;
+    border-top-left-radius: 20px;
+    border-end-end-radius: 20px;
   
 }
+
 
 /*----------- fin index -----------*/
 

@@ -24,6 +24,7 @@
                 <a href="servicios.html"> Servicios</a>
                 <a href="sobre.html"> Sobre Nosotros</a>
                 <a href="opiniones.html">Opiniones</a>
+                <button id="modo-btn">Cambiar modo</button>
             </ul>
         </nav>
     </header>
@@ -32,7 +33,7 @@
         <br>
         <h1>Zapatería Bootcamp!</h1>
         <br>
-        <h2>Somos una zapateria super chula capaz de satisfacer los deseos más estilosos de nuestros clientes</h2>
+        <h2>Estilo que hace deploy en cada paso. <span id="saludo"></span></h2>
 
 
         <!-- El div padre:
@@ -47,23 +48,35 @@
             -->
         <div class="container text-cente">
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-xl-4 div1">hola</div>
+                <div class="col-xs-12 col-md-6 col-xl-4 div1">
+                    <!-- Estilo del texto con bootstrap, centrado, en mayúsculas, espacio
+                     entre líneas algo más anchas y tamaño del texto.-->
+                    <p class="text-center text-uppercase lh-lg fs-5">Guarda tu look en memoria. Boocamp lo compila por ti y el único bug que aceptamos… es en tus viejas zapatillas</p>
+                </div>
                 <div class="col-xs-12 col-md-6 col-xl-4 div2">
                     <div class="homeImagen">
-                        <img src="public/index.jpg" alt="Imagen con diferentes tipo de calzado.">
+                        <img src="public/botines3-index.jpg" alt="Imagen con diferentes tipo de calzado.">
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-xl-4 div3">mañana</div>
+                <div class="col-xs-12 col-md-6 col-xl-4 div3">
+                    <p class="text-center text-uppercase lh-lg fs-5">Pisa fuerte en tu código. Calzado optimizado para largas sesiones de código</p>
+                </div>
             </div>
 
             <div class="row">
-                <div class="col-xs-12 col-md-6 col-xl-4 div1">hola</div>
-                <div class="col-xs-12 col-md-6 col-xl-4 div2">
+                <div class="col-xs-12 col-md-6 col-xl-4 div1">
                     <div class="homeImagen">
-                        <img src="public/index.jpg" alt="Imagen con diferentes tipo de calzado.">
+                        <img src="public/botines2-index.jpg" alt="Imagen con diferentes tipo de calzado.">
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-xl-4 div3">mañana</div>
+                <div class="col-xs-12 col-md-6 col-xl-4 div2">
+                    <p class="text-center text-uppercase lh-lg fs-5">Desde el Bootcamp hasta la calle: performance y estilo y donde el frontend es elegante y el backend cómodo</p>
+                </div>
+                <div class="col-xs-12 col-md-6 col-xl-4 div3">
+                    <div class="homeImagen">
+                        <img src="public/botines1-index.jpg" alt="Imagen con diferentes tipo de calzado.">
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -81,6 +94,8 @@
 
 
 </body>
+<!-- link al script -->
+<script src="script.js"></script>
 <script src="bootstrap-5.3.8-dist/js/bootstrap.min.js"></script>
 
 </html>

@@ -26,3 +26,6 @@ En esta fase se crean todas las páginas y se hace los estilos básicos con CSS 
 
 - index - Natalia
     - Se implanta bootstrap de manera local y se hacer un grid responsive en la parte central.
+    - Se usa bootstrap para poner responsive el div central, que muestras imagenes y texto.
+    - Con Javascript se implanta un modo oscuro/claro a la página, script externo.
+    - También con JS se modifica el texto del h2 del index.
