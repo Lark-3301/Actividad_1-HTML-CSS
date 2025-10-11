@@ -29,3 +29,4 @@ En esta fase se crean todas las páginas y se hace los estilos básicos con CSS 
     - Se usa bootstrap para poner responsive el div central, que muestras imagenes y texto.
     - Con Javascript se implanta un modo oscuro/claro a la página, script externo.
     - También con JS se modifica el texto del h2 del index.
+    - Se implementa un alert.
