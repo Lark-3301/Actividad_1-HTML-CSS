@@ -301,3 +301,15 @@ footer p a {
     margin-left: 5px;
 
 }
+
+/* Esta es la parte opiniones con el JS */
+
+.alert {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button-alert {
+
+}
