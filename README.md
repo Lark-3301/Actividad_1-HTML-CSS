@@ -9,11 +9,11 @@ This is the first big project of the bootcamp
 - Contacto - Natalia
 - Equipo - Victor y Natalia
     - header y footer - Natalia
-- Servicios - 
+- Servicios - Maika
     - header y footer - Natalia
 - Quienes somos - 
     - header y footer - Natalia
-- css - victor y Natalia
+- css - Victor, Maika y Natalia
 
 ### Que se uso:
 En esta fase se crean todas las páginas y se hace los estilos básicos con CSS y HTML
@@ -29,3 +29,5 @@ En esta fase se crean todas las páginas y se hace los estilos básicos con CSS 
     - Se usa bootstrap para poner responsive el div central, que muestras imagenes y texto.
     - Con Javascript se implanta un modo oscuro/claro a la página, script externo.
     - También con JS se modifica el texto del h2 del index.
+- Servicios - Maika y Natalia
+    - En JS se va a incluir un contador cuando se de al botón que muestre cuantas veces has pulsado.

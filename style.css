@@ -6,7 +6,8 @@
 }
 
 /* Color del fondo del body y el color del texto.*/
-body, .bodyIndex {
+body,
+.bodyIndex {
     background-color: #FFEBE6;
     color: #D12D00;
 
@@ -15,7 +16,7 @@ body, .bodyIndex {
 /*Cambiar de claro oscuro el index. invertir los colores.*/
 .bodyIndex-oscuro {
     background-color: #D12D00;
-    color:  #FFEBE6 ;
+    color: #FFEBE6;
 
 }
 
@@ -72,7 +73,7 @@ de los colores
 
     background-color: #ffab94;
 
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
 
 }
 
@@ -98,7 +99,8 @@ main {
     width: 80%;
     margin: auto;
 }
-.homeGridPadre{
+
+.homeGridPadre {
     margin: auto;
     display: grid;
     grid-template-columns: 25% 50% 25%;
@@ -109,24 +111,27 @@ main {
 .div1 {
     background-color: #FFAB94;
 }
-    
+
 .div2 {
     background-color: aquamarine;
 }
+
 .div3 {
     background-color: aqua;
 }
-.homeImagen{
+
+.homeImagen {
     display: flex;
     justify-content: center;
     margin: 0.5em;
-   
+
 }
+
 .homeImagen img {
     width: 80%;
     border-top-left-radius: 20px;
     border-end-end-radius: 20px;
-  
+
 }
 
 
@@ -216,11 +221,7 @@ select {
 }
 
 .radio-group input[type="radio"],
-.respuesta-group input[type="radio"] {
-   
-   
-    
-}
+.respuesta-group input[type="radio"] {}
 
 .formularioBoton {
     display: flex;
@@ -244,8 +245,41 @@ button:hover {
 }
 
 /*-------fin contacto --------*/
-/*
------------------------------------------------
+
+
+
+/*-------inicio se}rvicios------*/
+.seccionServicio {
+    background-color: bisque;
+    display: flex;
+    margin-bottom: 20px;
+
+}
+
+.articuloServicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articuloServicio img {
+    width: 200px;
+    height: auto;
+
+}
+
+.articuloServicio p {
+    padding: 5px;
+}
+
+.formularioServicio {
+    margin: 0 auto;
+
+}
+
+/*--------fin servicios---------*/
+
+/*-----------------------------------------------
 ----------------MAIN----------------------------
 -----------------------------------------------*/
 
