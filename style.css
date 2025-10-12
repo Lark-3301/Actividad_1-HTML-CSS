@@ -177,7 +177,6 @@ form.formularioOpinion {
     padding: 20px;
     border-radius: 10px;
     width: 350px;
-    justify-content: center;
     margin: auto;
 }
 
@@ -277,6 +276,7 @@ button:hover {
 
 }
 
+
 /*--------fin servicios---------*/
 
 /*-----------------------------------------------
@@ -310,6 +310,16 @@ footer p a {
     align-items: center;
 }
 
-.button-alert {
-
+.sumar-reset {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; solo tendría un efecto visible si tu recuadro blanco fuera más alto que el contenido que tiene dentro. Como no es el caso, la propiedad está ahí pero no produce un cambio visual. */
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 340px;
+    margin: 20px auto;
+    gap: 10px;
 }
