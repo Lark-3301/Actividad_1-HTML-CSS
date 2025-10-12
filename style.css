@@ -323,3 +323,17 @@ footer p a {
     margin: 20px auto;
     gap: 10px;
 }
+
+.claro-oscuro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 340px;
+    margin: 20px auto; /* Centra el bloque horizontalmente usando 'auto' para repartir el espacio sobrante por igual entre los márgenes izquierdo y derecho. */
+    gap: 10px;
+
+}

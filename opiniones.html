@@ -35,9 +35,14 @@
         <br>
         <div class="sumar-reset">
             <p>Contador y reset</p>
-            <p>Contador: <span id="counter">0</span></p>
+            <p>Contador: <span id="counter">0</span></p> <!-- se usa un <span> dentro de un <p> para poder seleccionar y manipular una pequeña parte del texto sin afectar al resto del párrafo. Piensa en el <span> como un marcador fluorescente. El <p> contiene toda la frase, pero el <span> te permite "marcar" solo la palabra o el número que te interesa cambiar. -->
             <button id="btn-sumar" class="button-sumar">+ Sumar</button>
-            <button id="btn-reset" id="button-reset">Reset</button>
+            <button id="btn-reset" class="button-reset">Reset</button>
+        </div>
+        <div class="claro-oscuro">
+            <p>Modo oscuro / claro</p>
+            <p>Pulsa para alternar el tema de la pagina</p>
+            <button id="btn-claroscuro">Caambiar tema</button>
         </div>
     </main>
     <footer class="footerOpiniones">

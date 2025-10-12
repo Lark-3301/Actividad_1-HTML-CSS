@@ -6,9 +6,9 @@ btnAlert.addEventListener('click',()=>{
 })
 
 contador = 0; 
-let pantallaContador = document.getElementById('counter');
-let btnSumar = document.getElementById('btn-sumar');
-let btnReset =document.getElementById('btn-reset');
+const pantallaContador = document.getElementById('counter'); /* Nota: Usamos const para los elementos HTML porque la conexión con ese elemento no va a cambiar nunca. Es una buena práctica. */
+const btnSumar = document.getElementById('btn-sumar');
+const btnReset =document.getElementById('btn-reset');
 
 btnSumar.addEventListener('click', () => {
     contador ++;
